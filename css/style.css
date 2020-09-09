@@ -34,6 +34,9 @@ header {
   padding: 50px 0;
   background-image: url(../img/natural-header.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
   text-align: center;
   border: 10px solid white;
 }
@@ -43,7 +46,7 @@ header {
 }
 
 .image-header h2 {
-  font-family: font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
@@ -54,12 +57,12 @@ header {
 
 .nav .menu li {
   display: inline-block;
-  padding: 0 15px;
 }
 
 .nav .menu li a {
+  padding: 15px 15px;
   line-height: 45px;
-  font-family: font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
   font-weight: bold;
 }
