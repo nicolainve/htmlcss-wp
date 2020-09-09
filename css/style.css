@@ -155,7 +155,33 @@ section {
 }
 
 footer {
-  height: 100px;
-  background: lightblue;
+  padding: 3px;
+  background-color: white;
   margin-top: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.social ul {
+  list-style: none;
+}
+
+.social ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.social ul li {
+  float: left;
+  width: calc(100% / 3);
+  padding: 40px;
+}
+
+.social ul li a i {
+  font-size: 50px;
+  color: lightgrey;
+}
+.social ul li a:hover i {
+  color: blue;
 }
