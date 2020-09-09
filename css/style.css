@@ -135,21 +135,23 @@ main p {
 
 section {
   width: 50%;
-  height: 400px;
 }
+
+/* right */
 
 .right {
   margin-left: 5%;
   background-color: inherit;
 }
 
-.box {
+.widget {
   margin-bottom: 20px;
-  height: 150px;
+  background-color: white;
+  border-radius: 5px;
 }
 
-.box:last-child {
-    margin-bottom: 0;
+.widget:last-child {
+  margin-bottom: 0;
 }
 
 footer {
