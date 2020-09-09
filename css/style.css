@@ -5,20 +5,54 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   background-image: url(../img/natural-pattern.png);
 }
 
+a {
+  text-decoration: none;
+  color: green;
+}
 .container {
   width: 65%;
+  max-width: 100%;
   margin: 1% auto;
 }
 
-header {
-  height: 200px;
-  background: yellow;
-  margin-bottom: 10px;
+/* header */
+.image-header {
+  padding: 50px 0;
+  background-image: url(../img/natural-header.jpg);
+  background-size: cover;
+  text-align: center;
+  border: 10px solid white;
 }
 
+.image-header img {
+  width: 50%;
+}
+
+.image-header h2 {
+  font-family: font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.nav {
+  background-color: #393532;
+  text-align: center;
+}
+
+.nav .menu li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.nav .menu li a {
+  line-height: 45px;
+  font-family: font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: bold;
+}
 main::after {
   content: "";
   display: table;
