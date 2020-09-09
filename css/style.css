@@ -1,3 +1,5 @@
+/* general style */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-image: url(../img/natural-pattern.png);
+}
+
+h2 {
+  padding: 20px;
 }
 
 a {
@@ -20,6 +26,10 @@ a {
 }
 
 /* header */
+header {
+  margin-bottom: 10px;
+}
+
 .image-header {
   padding: 50px 0;
   background-image: url(../img/natural-header.jpg);
@@ -53,40 +63,77 @@ a {
   color: white;
   font-weight: bold;
 }
+
+/* main */
 main::after {
   content: "";
   display: table;
   clear: both;
 }
 
-aside, section {
+.col {
   float: left;
+  background-color: white;
+  border-radius: 5px;
 }
 
 aside {
-  width: 30%;
+  width: 20%;
 }
 
+/* left */
 .left {
-  background: violet;
-  height: 300px;
-  margin-right: 1%;
+  margin-right: 5%;
+}
+
+.left-header {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left-header .ico {
+  float: left;
+  width: 20%;
+}
+
+.left-header .ico i {
+  color: orange;
+  margin: 5px 0 0 5px;
+  font-size: 30px;
+}
+
+.left-header .heading {
+  float: left;
+  width: 80%;
+}
+
+.left-header .heading h2 {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.second-nav {
+  list-style: none;
+}
+
+.second-nav li {
+  padding: 5px;
 }
 
 section {
-  width: 38%;
+  width: 50%;
   height: 400px;
-  background: darkviolet;
 }
 
 .right {
-  margin-left: 1%;
+  margin-left: 5%;
+  background-color: inherit;
 }
 
 .box {
   margin-bottom: 20px;
   height: 150px;
-  background: violet;
 }
 
 .box:last-child {
