@@ -64,6 +64,10 @@ header {
   font-weight: bold;
 }
 
+.nav .menu li:hover {
+  background: grey;
+}
+
 /* main */
 main::after {
   content: "";
@@ -162,6 +166,10 @@ footer {
   text-align: center;
 }
 
+.crediti p {
+   color: grey;
+ }
+
 .social ul {
   list-style: none;
 }
@@ -182,6 +190,15 @@ footer {
   font-size: 50px;
   color: lightgrey;
 }
-.social ul li a:hover i {
+
+.social ul li a:hover .fab.fa-facebook-square {
   color: blue;
+}
+
+.social ul li a:hover .fab.fa-instagram-square {
+  color: purple;
+}
+
+.social ul li a:hover .fab.fa-github-square {
+  color: black;
 }
