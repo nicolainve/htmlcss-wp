@@ -5,7 +5,12 @@
 }
 
 body {
+  background-image: url(../img/natural-pattern.png);
+}
 
+.container {
+  width: 65%;
+  margin: 1% auto;
 }
 
 header {
