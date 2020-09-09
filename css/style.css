@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  width: 1000px;
+  padding: 20px;
+  border: 2px solid blue;
+}
+
+header {
+  height: 200px;
+  background: yellow;
+  margin-bottom: 10px;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside, section {
+  float: left;
+}
+
+aside {
+  width: 30%;
+}
+
+.left {
+  background: violet;
+  height: 300px;
+  margin-right: 1%;
+}
+
+section {
+  width: 38%;
+  height: 400px;
+  background: darkviolet;
+}
+
+.right {
+  margin-left: 1%;
+}
+
+.box {
+  margin-bottom: 20px;
+  height: 150px;
+  background: violet;
+}
+
+.box:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+  height: 100px;
+  background: lightblue;
+  margin-top: 10px;
+}
